@@ -88,3 +88,6 @@ hr {
 .card h2, p {
     padding: 20px;
 }
+.card p {
+    padding-top: 0;
+}
