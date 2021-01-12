@@ -26,7 +26,6 @@ hr {
     overflow-x: hidden;
     align-items: center;
     background-color: #364958;
-    box-shadow: aquamarine;
     /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);*/
     z-index: 100;
     top: 0;
