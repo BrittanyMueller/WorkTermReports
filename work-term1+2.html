@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="BM-favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="style.css">
     <title>Brittany Mueller | The Co-operators</title>
 </head>
@@ -10,90 +11,154 @@
     <div class="sidenav">
         <a id="home" title="Home" href="index.html">Brittany Mueller</a>
         <div class="work-term-box" title="Work Term 1 & 2">
-            <a href="work-term1+2.html"><img src="Cooperators-icon.png" alt="Work Term 1">&nbsp;Work Term 1 & 2&nbsp;</a>
+            <a href="work-term1+2.html">
+                <img src="Cooperators-icon.png" alt="Work Term 1">&nbsp;Work Term 1 & 2&nbsp;</a>
         </div>
     </div>
 
     <div id="main">
 
-        <div class="card">
-            <h2>Job Description</h2>
-            <p>
-                My role as a Junior Developer & System Analyst started on the SPM Compensation team, a small team within IT Solutions & Delivery .
-                SPM (Sales Performance Management), our teams overall project, is a web application for Co-operators advisors to
-                manage their agency, staff, and sales commissions.  The SPM compensation team is primarily responsible for managing the commissions section of the application.
-                As the only developer it was weird
+        <div id="page-header">
+            <img src="Cooperators-logo-blue-2X.png" alt="The Co-operators">
+            <h1>Summer & Fall 2020 Work Term Report</h1>
+        </div>
 
-                My main responsibilities included developing, deploying, and maintaining multiple test automation suites.
-                I also did VBA templates but where do i fit this in...
-                Going into this co-op, I had some basic experience with HTML and JavaScript which but had no experience with test automation.
-                , but found through test automation,
-                in which I wasn't directly I was able to strengthen those skills.When I first started, we had one test suite that was no longer being maintainedin which I was responsible
-                for developing and  test automation for the SPM application.  I also created and managed a
-                skills required
-                -
-                Self teaching
-                I encountered many new technologies
-                in a remote environment so a lot of experience was self taught, learned a lot on the job on my own,
-                required being able to work independently
-                created managed jenkins build
-                test automation - html/css and javascript knowledge to understand
-                required strong analytical skills, in order to
-                vba templates
-                My team, the Sales Performance Management (SPM) Within this company lives the team(s) I worked with during my time at Co-operators
+        <div class="card" id="intro">
+            <h2>Introduction</h2>
             <p>
-                talk about how it was remote, how it was unique experience opportunity of working on two different teams.
-                During the second half of my time with Co-operators, I was given the unique opportunity of working for a different team.
-
-                consisted of mainly QAs and business analysts.
-                to ensure quality in a website :S
-                SPM (Sales Performance Management) is an application for advisors to manage their agency, staff, and sales under cooperators, so the SPM compensation team was primarily responsible for managing the commissions section of the application.
-                As the only developer it was weird
-                Essentially our team was responsible for managing the SPM
-                When I started, the need for regression testing of SPM was apparent. a common goal was developing a regression there was an apparent need for testing
+                I am Brittany Mueller, at the time of writing this, I'm a 3rd year Computer Science Co-op student,
+                minoring in Mathematics. This report will go over my 8 month co-op term (May to Dec 2020) at The Co-operators,
+                what I accomplished, the skills I developed, and how I was able to find success despite a fully remote work environment.
             </p>
-            <hr>
+        </div>
+        <br>
+        <div class="card" id="about-company">
+            <h2>About the Co-operators</h2>
             <p>
-                During the second term I was given the unique opportunity to work with another team whose focus was
-                Client Experience
+                The Co-operators is a Canadian insurance co-operative founded in Saskatchewan in 1945.
+                Their head office is located here in downtown Guelph, which is where I would have been working had my work term not been remote.
+                The Co-operators consists of several subsidiary companies that each provide different solutions.
+                The largest of these companies, is Co-operators General Insurance Company, which offers property and casualty
+                (P&C) insurance (home, auto, farm, & commercial) through a network of advisors across Canada.
             </p>
+        </div>
+        <br>
+        <div class="card" id="job-description">
+            <h2>Job Description & Project Overview</h2>
+            <p>
+                My role as a Junior Developer & System Analyst started on the SPM Compensation team.  SPM (Sales Performance Management),
+                our teams overall project, is a web application for Co-operators advisors to
+                manage their agency, staff, and sales commissions.  My main responsibilities included developing, deploying,
+                and maintaining multiple test automation suites that supported regression testing of this application.
+            </p>
+            <p>
+                Test suite development was done using Robot Framework (a keyword-driven test automation framework), web drivers, and Selenium keyword libraries for web testing.
+                Test case writing involved first finding locators for key HTML elements, or using XPath to query the HTML if unique identifiers didn't exist, then
+                using Selenium keywords with these locators to automate navigation of the web browser.
 
-            <hr>
-            <h2>Project Work</h2>
-            <p>Daily Health Check</p>
+                Deployment was done using Jenkins, a CI/CD automation server, where I created and managed Jenkins pipeline jobs for each test suite through a Jenkinsfile.
+                To compliment these Jenkins builds, particularly the daily health check that runs each morning, I created a custom email template in Groovy and HTML
+                that parses the log files after each scheduled build into a concise fail/pass summary and sends the results.
+
+                I was also responsible for developing and maintaining an assortment of macro enabled templates for comparing and validating files, which required me to learn VBA.
+            </p>
+            <p>
+                Going into this co-op, I had no prior experience with any of these technologies, but my knowledge of
+                HTML and JavaScript made learning web testing with Robot Framework and debugging easier to approach.  My previous experience
+                with Python was also an asset when creating custom libraries for the testing of SPM's Commissions dashboards.
+                Overall, as the sole developer on these test suites in a COVID-19 remote setting, my ability to work independently, pick up and self-teach new
+                technologies as needed, and my strong analytical skills were all vital to my success.
+            </p>
         </div>
 
         <div class="card">
-            <h2>Goals - S20</h2>
+            <h2>Learning Goals & Reflections</h2>
+            <h4> <i>Improve Documentation and Organization Skills</i></h4>
             <p>
-                1. Improve documentation and organization skills
-                jira tickets to document progress on work
-
-                As this was my first time working in a corporate environment, the process of documenting work through Jira
-                tasks and Confluence
-
-                2. Develop skills in robot framework
-                talk about the projects i worked on, talk about success, results of automation
-                talk about jenkins,talk about groovy email script to display robot results
-                3. gain confidence when speaking to large groups/senior members
-                in a remote environment, it was especially daunting navigating even day to day correspondance,
-                most times having a chat or asking someone for advice felt like it required emails or meetings
-                (this is getting off topic tho, but i thought i could use it as a lead up to stress my lack of confidence)
-                success - were able to successfully present our project work, regression testing project
+                When I started, one of my struggles was around understanding where to pick up on our old test automation suite since no documentation existed for it.
+                As this was my first time working in a corporate environment, documenting work through Jira tasks and Confluence was new to me
+                so it became a goal of mine to fill the gaps in our documentation and improve my own organization skills in the process.
+                I succeeded at this by creating detailed Jira tickets and Confluence pages so my supervisors could track my work.
+                I created Confluence pages for each of my test suites where I outlined their purpose, test coverage, and provided relevant links to their Bitbucket repos and Jenkins jobs.
+                I also documented setup and accesses required for the Robot development environment. I often had team members
+                or coworkers from other teams reach out to me because they were interested in my work or wanted to learn more about Robot Framework,
+                and they found this documentation quite helpful.
             </p>
             <hr>
-            <h2>Goals - F20</h2>
+            <h4><i>Develop Skills in Robot Framework Test Automation</i></h4>
             <p>
-                1. Develop front-end web dev skills working on an Angular web app
+                My first major project at The Co-operators was developing an enhanced daily health check for SPM.
+                The existing health check was undocumented, not very robust, and written in Java.  At this point I had never
+                done any test automation before, so starting from scratch was most efficient. I chose to start over in Robot Framework,
+                a technology being used by another team who could provide some initial setup and technical support if needed.
+                I began teaching myself Robot Framework and created a new daily health check with significantly more test coverage than before.
 
-                2.	Mentor new developer on Robot Framework
+                As my skills with Robot grew, I expanded the scope of our regression testing from just a health check into
+                testing full Workflows such as onboarding new agency staff, offboarding staff, and requesting e-signed documents.
 
-                3. Learn to work in Agile environment/the Agile method
+                Towards the end of my term, I took my experience from the daily health check and created a similar test suite
+                for my digital team.
+
+                Of all my goals, this is the one I am most proud of and feel I found the most success with.  I feel confident
+                in the test automation skills I've developed and my knowledge of Robot Framework.
+            </p>
+            <hr>
+            <h4> <i>Build Confidence Speaking to Large Groups</i></h4>
+            <p>
+                Presenting or speaking to groups has never been my strong suit, so I wanted a goal of mine to be building my confidence speaking to larger groups, especially senior members.
+                One thing I did to help achieve this was occasionally offering to lead the daily stand up on my digital team. This helped me
+                practice speaking in a structured setting. Besides this, the key to my success was learning to take ownership of my project work.
+                Test automation in particular was something I could own and something only I could speak to, which helped me develop that confidence and recognize just how valuable my work was.
+                Ultimately, I was able to extend the confidence I felt in my work to my presentations, and successfully
+                gave demos of my regression test suites to both the greater SPM team and senior leadership team.
+            </p>
+            <hr>
+            <h4> <i>Develop Front-End Dev Skills</i></h4>
+            <p>
+                Towards the end of my second term, I was given the unique opportunity to extend the scope of my work from SPM
+                into front end development for a digital team, Ctrl Alt Elite. I worked on enhancements to their Data Generator Tool,
+                an Angular web app used to automate the creation of test clients and policies.
+                My major contribution to the tool was adding a Changelog page to address major releases and an About
+                page to make the tool more user friendly. Through this work I was able to develop new front-end skills and a deeper understanding
+                of Angular projects. Overall, this is one goal I feel I could have been more successful with.
+                I felt there was still so much I had to learn, but unfortunately my work term came to an end! Regardless,
+                this experience certainly helped me realize web development is something I'd love to try more of.
+            </p>
+            <hr>
+            <h4> <i>Mentor New Developer on Robot Framework</i></h4>
+            <p>
+                Mid October, a new junior developer started on the SPM team. One of my goals before the end of my term
+                was to help him ramp up to ensure all my test suites and Jenkins jobs could seamlessly live on and be maintained after I was gone.
+                To accomplish this, I took on more of a mentorship role and began sharing my experiences with Robot Framework and Jenkins,
+                as well as collaborating on project work with him. I prepared additional documentation as a tips and troubleshooting guide
+                for him to follow.  As his skill with Robot grew, I continued to delegate work and provide ad hoc support.
+                By the end of my term, he was managing the test suites on his own and, based on feedback from my supervisors,
+                is confident in his ability to troubleshoot and maintain the suites!
+            </p>
+            <hr>
+            <h4> <i>Learn to work in an Agile Environment</i></h4>
+            <p>
+                My SPM team used a Kanban board to organize work and held daily stand ups where we'd give updates about what we did yesterday, what we plan to do today, and raise any blockers we might have.
+                Over the course of my work term, I participated in an array of agile ceremonies.  Each of my teams held a daily stand up each morning where we gave updates and raised any blockers we might have.
+                On my digital team, I occasionally took on leading these stand ups.
+
+
+                I demonstrated my successes by
+
                 During my term, I was also given the opportunity to receive my LEAN White Belt Certification.
                 LEAN is a methodology that aims to eliminate waste (poor design, poor communication, etc.) and optimize
                 that the Agile methods development -- optimally the two methods should be used, "LEAN methods help
             </p>
-
+        </div>
+        <div class="card">
+            <h2>Conclusion</h2>
+            <p>
+                Overall I’m especially grateful that I got this really unique opportunity of being able to work on two
+                different teams, I started on AX for the SPM compensation team for most of my term and then now
+                being over here seeing the CX side of things, it helps complete the picture and is interesting
+                to see both sides of it.
+                I made
+            </p>
         </div>
 
         <div class="card">
